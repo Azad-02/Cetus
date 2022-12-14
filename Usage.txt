@@ -1,0 +1,41 @@
+USAGE:
+
+- You can use Cetus to find all the memory addresses used by the game that match the given value. For a regular integer, we choose i32 
+  (32-bit integer) in Value Type.
+- Cetus also allows you to search for numbers with decimals (usually called floats), represented by the f32 and f64 types.
+- For strings encoded in ascii, utf-8 or bytes. 
+- You need to specify the data type as part of your search because, for your computer, the values 32 (integer) and 32.0 (float) are stored in 
+  different formats in memory.
+  
+  
+COMPARISON OPERATORS:
+
+OPERATOR		DESCRIPTION
+
+EQ			Find all memory addresses with contents that are EQUAL to our inputted value.
+NE			Find all memory addresses with contents that are NOT EQUAL to our inputted value.
+LT			Find all memory addresses with contents that are LOWER THAN our inputted value.
+GT			Find all memory addresses with contents that are GREATER THAN our inputted value.
+LTE			Find all memory addresses with contents that are LOWER THAN OR EQUAL to our inputted value.
+GTE			Find all memory addresses with contents that are GREATER THAN OR EQUAL to our inputted value.
+
+
+
+- After selecting an appropriate option for your Condition, Click on Search and You'll find Corresponding Memory Address with it's Value (in Hexadecimal).
+- You can Bookmark the Address and View further it in Bookmarks tab.
+
+- Empty Value can be used for Differential Search to look for memory positions based on specific variations on the value, rather than the value itself.
+
+- Initially, This will return the total number of memory addresses mapped by the game.
+- Suppose you want to know which memory addresses have decreased since the last search. You can run a second search using the LT operator without 
+  setting a value to search.
+- Now, you can continue to do successive searches.
+
+- For example, if you now wanted to know which of the remaining resulting memory addresses from the first search have increased their value, you 
+  can simply do another search with the GT operator with no value again.
+  
+- If you are searching for a particular value, you can continue to do more searches until you find the memory address you are trying to get.
+
+
+
+
