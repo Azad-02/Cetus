@@ -1,0 +1,31 @@
+DOWNLOAD CETUS ZIP FILE : https://objects.githubusercontent.com/github-production-release-asset-2e65be/201771487/93919cc7-1cd3-47ed-ad6f-302d51162676?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20221214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221214T054048Z&X-Amz-Expires=300&X-Amz-Signature=98b6d9704d2b5b7651b85ce55d7c5c8283fcf7461bdd1fd08ad18363bc03d4e7&X-Amz-SignedHeaders=host&actor_id=110171614&key_id=0&repo_id=201771487&response-content-disposition=attachment%3B%20filename%3DCetus_v1.03.1.zip&response-content-type=application%2Foctet-stream
+
+
+Installing Cetus on FireFox
+
+- To run Cetus on Firefox, you will need to load it as a temporary extension since it isn't available on the add-ons website. To do this, 
+  open Firefox and type about:debugging in the address bar. Once in there, go to This Firefox, where you'll find a button to load temporary 
+  add-ons. 
+- Temporary add-ons will only be loaded for as long as the browser remains open, so you'll need to load it again if you close it for 
+  some reason.
+- To load the extension, you will need to browse to the directory where you downloaded and extracted Cetus and select the manifest.json 
+  file inside the main folder and click OK.
+
+
+Installing Cetus on Chrome
+
+- To install Cetus on Chrome, type chrome://extensions in your address bar. This will take you to the extensions manager. You will need to enable
+  the Developer mode, enabling additional buttons to load the extension. Click the Load unpacked button and point to the directory where you 
+  uncompressed the plugin.
+- This will open an explorer window where you'll need to go to the directory where Cetus was uncompressed, and press the Open button from there 
+  without selecting any file.
+- Once you are done, you should see Cetus loaded in your extensions.
+
+
+ACCESSING Cetus
+
+- To find Cetus, you need to open the Developer tools by clicking on more tools in the button on the upper-right corner of Chrome.
+- Cetus is located in one of the tabs there (under >> symbol)
+- With Cetus open, hit the refresh button to reload the game.
+
+Note: If Cetus shows the "Waiting for WASM" message, just reload the game, and the tools should load.
